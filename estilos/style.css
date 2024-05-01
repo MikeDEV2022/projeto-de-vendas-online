@@ -24,7 +24,7 @@ body{
     background-color: var(--cor-back);
 }
 header{
-    padding: 19px 34px;
+    padding: 19px 0px;
     background-color: var(--cor-back-header);
 }
 .container-header{
@@ -58,7 +58,8 @@ main{
     flex-flow: column;
     width: 99%;
     gap: 30px;
-    margin: 50px 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     border-radius: 20px;
     padding: 20px;
     background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.11)), url(../imagens/new-back.jpg) ;
@@ -95,6 +96,7 @@ main{
     cursor: pointer;
     box-shadow: 0px 0px 1px rgb(2, 72, 100);
 }
+
 .products{
     display: flex;
     justify-content: center;
@@ -137,4 +139,105 @@ main{
     display: block;
     margin: auto;
     width: 150px;
+}
+.container-strong{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.strong-products h1{
+    text-align: center;
+    margin: 40px 0px;
+}
+.all-strong{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90vw;
+    height: 400px;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.11)), url(../imagens/new-back.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    overflow: hidden;
+    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.404);
+    color: var(--cor-titles);
+    cursor: pointer;
+}
+.all-strong h2{
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+.container-contact{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 200px;
+}
+.container-contact h2, .container-contact p{
+    text-align: center;
+}
+.container-contact p{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.itens-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.itens-icon i{
+    margin-right: 4px;
+    font-size: 20px;
+    background-color: var(--cor-back-header);
+    padding: 10px;
+    border-radius: 50%;
+    color: var(--cor-titles);
+    cursor: pointer;
+    box-shadow: 0px 0px 5px var(--cor-back-header);
+}
+.contact-informations{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 20px;
+}
+.location p, .phone p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.location i, .phone i{
+    font-size: 30px;
+    color: var(--cor-titles);
+    background-color: var(--cor-back-header);
+    padding: 8px 12px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+footer{
+    background-color: var(--cor-back-header);
+    padding: 70px 0px;
+}
+.container-footer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.container-footer h1{
+    font-size: 14px;
+    text-align: center;
+    color: var(--cor-titles);
 }
