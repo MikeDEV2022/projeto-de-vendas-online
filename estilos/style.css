@@ -110,6 +110,7 @@ main{
     display: flex;
     flex-flow: column;
     width: 270px;
+    transition: .5s;
 }
 .container-product p{
     align-self: center;
@@ -127,6 +128,10 @@ main{
     background-color: #F5F5F5;
     margin: 40px 0px;
     cursor: pointer;
+}
+.container-product:hover{
+    transform: translateY(-20px);
+    transition: .5s;
 }
 .product img{
     display: block;
